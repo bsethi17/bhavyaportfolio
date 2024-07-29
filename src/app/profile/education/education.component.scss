@@ -1,0 +1,84 @@
+.section {
+    padding: 60px 0;
+  }
+  
+  .cc-education {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .cc-education .title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .cc-education .card {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cc-education .card-body {
+    padding: 20px;
+  }
+  
+  .cc-education .cc-education-header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cc-education .h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+  }
+  
+  .cc-education .h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .cc-education .category {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+  }
+  
+  .cc-education ul {
+    padding-left: 20px;
+  }
+  
+  .cc-education ul ul {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .education-timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .education-details {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .bg-primary {
+    background-color: #007bff !important;
+  }
+  
+  .bg-secondary {
+    background-color: #6c757d !important;
+  }
+  
+  .bg-success {
+    background-color: #28a745 !important;
+  }
+  
