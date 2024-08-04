@@ -1,0 +1,46 @@
+.skill-hex {
+    position: relative;
+    width: 120px;
+    height: 138.56px;
+    background-color: #fff;
+    margin: 20px 10px;
+    clip-path: polygon(
+      50% 0%, 
+      100% 25%, 
+      100% 75%, 
+      50% 100%, 
+      0% 75%, 
+      0% 25%
+    );
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+  
+    .hex-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+  
+      i {
+        font-size: 2em;
+        color: #007bff;
+        margin-bottom: 10px;
+      }
+  
+      .skill-name {
+        font-size: 0.9em;
+        font-weight: 500;
+        color: #333;
+        text-align: center;
+      }
+    }
+  }
+  

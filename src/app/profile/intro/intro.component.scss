@@ -1,0 +1,21 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between the buttons */
+  padding: 20px 0; /* Adjust padding to move the buttons up or down */
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.btn-icon i {
+  margin: 0;
+  line-height: 1;
+}

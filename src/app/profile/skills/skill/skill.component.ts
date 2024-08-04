@@ -1,4 +1,4 @@
-import { Component, Input} from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-skill',
@@ -6,9 +6,6 @@ import { Component, Input} from '@angular/core';
   styleUrls: ['./skill.component.scss']
 })
 export class SkillComponent {
-  @Input()
-  skillLevel: number = 0;
-
-  @Input()
-  skillName: string = '';
+  @Input() skillName: string = '';
+  @Input() skillIcon: string = '';
 }
