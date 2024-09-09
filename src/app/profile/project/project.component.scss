@@ -1,3 +1,12 @@
+.project-link {
+  text-decoration: none;
+  color: inherit; /* Ensure the text color remains the same */
+}
+
+.project-link:hover .project-card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Add hover effect */
+}
+
 .section {
   padding: 40px 0; /* Reduced padding */
 }
